@@ -1498,10 +1498,19 @@
 
     <!-- CYANOGENMOD ADDITIONS START -->
 
+    <!-- Mobile network settings, summary for preferred network mode LTE / GSM/WCDMA [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_gsm_summary">Preferred network mode: LTE / GSM/WCDMA</string>
+    <!-- Mobile network settings, summary for preferred network mode LTE / CMDA / EvDo / GSM/WCDMA [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_cdma_evdo_gsm_wcdma_summary">Preferred network mode: LTE / CMDA / EvDo / GSM/WCDMA</string>
+
     <!-- Noise suppression -->
     <string name="noise_suppression_title">Noise suppression</string>
     <string name="noise_suppression_summary">Enable noise suppression for calls</string>
     <!-- End Noise suppression -->
+
+    <!-- Permission for notification-bar network toggle -->
+    <string name="perm_change_mobile_network">Change network (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Application with this permission can, at any time, change between 2G data and 3G data. 3G is faster, consumes more battery, and can also cost you more money.</string>
 
     <!-- Advanced Settings -->
     <string name="advanced_setting">Advanced Settings</string>
@@ -1517,6 +1526,10 @@
     <string name="blacklist_summary_disabled">Disabled</string>
     <string name="blacklist_summary">Incoming calls from phone numbers in the blacklist will be blocked</string>
     <string name="blacklist_notify">Show notification</string>
+    <string name="blacklist_private_numbers_title">Private numbers</string>
+    <string name="blacklist_private_numbers_summary">Block incoming calls from private numbers</string>
+    <string name="blacklist_unknown_numbers_title">Unknown numbers</string>
+    <string name="blacklist_unknown_numbers_summary">Block incoming calls from numbers not in the contact list</string>
     <string name="blacklist_regex_title">Use wildcards</string>
     <string name="blacklist_regex_summary">Use . as a wildcard and * for repetition. E.g. 123.* blocks numbers starting with 123 and .*123.* blocks numbers containing 123</string>
 
@@ -1529,14 +1542,14 @@
 
     <!-- Blacklist notifications -->
     <string name="blacklist_notification">Blocked a call from %s</string>
+    <string name="blacklist_notification_private_number">Blocked a call from a private number</string>
+    <string name="blacklist_notification_list_private">Private</string>
+    <string name="blacklist_notification_unknown_number">Blocked unknown number %s</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> calls were blocked</string>
     <string name="unblock_number">Unblock</string>
 
     <!-- Text for the onscreen "Blacklist" button -->
     <string name="onscreenBlacklistText">Blacklist</string>
-
-    <!-- Permission for notification-bar network toggle -->
-    <string name="perm_change_mobile_network">Change network (2G/3G)</string>
-    <string name="perm_change_mobile_network_desc">Application with this permission can, at any time, change between 2G data and 3G data. 3G is faster, consumes more battery, and can also cost you more money.</string>
 
     <!-- CYANOGENMOD ADDITIONS END -->
 
