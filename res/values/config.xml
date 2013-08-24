@@ -132,4 +132,8 @@
 
     <!-- LTE/CDMA network mode to use for toggleLTE(true). -->
     <integer name="toggleLTE_lte_cdma_nt_mode">-1</integer>
+
+    <!-- Send phone app status to proximity sensor
+         Writes the phone apps status on "answer call" and on "hangup" to the specified proximity sysfs node. -->
+    <string name="phone_app_status_file"></string>
 </resources>
